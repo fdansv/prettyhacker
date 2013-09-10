@@ -6,14 +6,14 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="system.out" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="system." />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" name="Default" comment="" />
     <ignored path="PrettyHacker.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378829955868" ignored="false" />
-    <file path="/MainNews.java" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378831253036" ignored="false" />
+    <file path="/MainNews.java" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378834825360" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +77,7 @@
       <file leaf-file-name="MainNews.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PrettyHacker/src/main/java/com/dansd/PrettyHacker/MainNews.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="36" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.71867007">
+            <state line="75" column="102" selection-start="2288" selection-end="2288" vertical-scroll-proportion="0.50127876">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -202,6 +202,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prettyhacker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PrettyHacker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -520,7 +538,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PrettyHacker/src/main/java/com/dansd/PrettyHacker/MainNews.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="36" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.71867007">
+        <state line="75" column="102" selection-start="2288" selection-end="2288" vertical-scroll-proportion="0.50127876">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

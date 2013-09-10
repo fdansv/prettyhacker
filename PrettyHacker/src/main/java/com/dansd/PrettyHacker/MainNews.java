@@ -7,13 +7,17 @@ import android.view.Menu;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainNews extends Activity {
 
     private Document newsDoc;
+    List articleList = new ArrayList<Article>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,9 +66,24 @@ public class MainNews extends Activity {
     }
 
     private void parseNewsDocument() {
-        Elements articles = newsDoc.select("html body center table tbody");
-        System.out.println("Printing selection");
-        System.out.println(articles);
+        Elements articles = newsDoc.select("html body center table tbody tr").get(3).select("td table tbody tr");
+
+        for(Element articleElement: articles){
+            Article thisArticle = new Article();
+            thisArticle.title = articleElement.getElementsByClass("title").select("a").text();
+            thisArticle.link = articleElement.getElementsByClass("title").select("a").attr("href");
+            if(articleElement.getElementsByClass("title").size()>0){
+                thisArticle.commentsLink = articleElement.select("td center a").attr("id").substring(3);
+                System.out.println(thisArticle.commentsLink);
+            }
+
+        }
+    }
+    
+    class Article{
+        public String title;
+        public String link;
+        public String commentsLink;
     }
 
 }
