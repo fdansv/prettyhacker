@@ -4,8 +4,10 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.view.View;
 import android.widget.ArrayAdapter;
 
+import android.widget.ListView;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -65,9 +67,11 @@ public class MainNews extends Activity {
 
     private void generateViews() {
         String[] items={"this", "is", "a", "really", "silly", "list"};
-        new ArrayAdapter<String>(this,
+        ArrayAdapter theAdapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1,
                 items);
+        ListView newsList = (ListView) findViewById(R.id.newsList);
+        newsList.setAdapter(theAdapter);
     }
 
     private void dealWithNullDocument() {
