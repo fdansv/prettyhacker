@@ -4,6 +4,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.widget.ArrayAdapter;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -54,11 +55,19 @@ public class MainNews extends Activity {
             super.onPostExecute(result);
             if(result != null){
                 parseNewsDocument();
+                generateViews();
             }
             else{
                 dealWithNullDocument();
             }
         }
+    }
+
+    private void generateViews() {
+        String[] items={"this", "is", "a", "really", "silly", "list"};
+        new ArrayAdapter<String>(this,
+                android.R.layout.simple_list_item_1,
+                items);
     }
 
     private void dealWithNullDocument() {
@@ -68,13 +77,16 @@ public class MainNews extends Activity {
     private void parseNewsDocument() {
         Elements articles = newsDoc.select("html body center table tbody tr").get(3).select("td table tbody tr");
 
-        for(Element articleElement: articles){
+        for(int i = 0; i<articles.size(); i+=3){
             Article thisArticle = new Article();
-            thisArticle.title = articleElement.getElementsByClass("title").select("a").text();
-            thisArticle.link = articleElement.getElementsByClass("title").select("a").attr("href");
-            if(articleElement.getElementsByClass("title").size()>0){
-                thisArticle.commentsLink = articleElement.select("td center a").attr("id").substring(3);
-                System.out.println(thisArticle.commentsLink);
+            thisArticle.title = articles.get(i).getElementsByClass("title").select("a").text();
+            thisArticle.link = articles.get(i).getElementsByClass("title").select("a").attr("href");
+            try{
+                String baseURL = "http://news.ycombinator.com/";
+                thisArticle.commentsLink = baseURL + articles.get(i+1).select("td").get(1).select("a").get(1).attr("href");
+            }
+            catch(Exception e){
+                thisArticle.link = "";
             }
 
         }
