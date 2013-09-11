@@ -35,7 +35,7 @@
     <list default="true" id="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" name="Default" comment="" />
     <ignored path="PrettyHacker.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/MainNews.java" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378906504078" ignored="false" />
+    <file path="/MainNews.java" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378909218338" ignored="false" />
     <file path="/activity_main.xml" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378906455867" ignored="false" />
     <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy405169587347253578tmp/AndroidManifest.xml" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378906536236" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -104,9 +104,10 @@
       <file leaf-file-name="MainNews.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PrettyHacker/src/main/java/com/dansd/PrettyHacker/MainNews.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="24" selection-start="2050" selection-end="2050" vertical-scroll-proportion="0.7653061">
+            <state line="75" column="64" selection-start="2146" selection-end="2146" vertical-scroll-proportion="0.57908165">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#doInBackground#0;class#RequestTask#0;class#MainNews#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -319,6 +320,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
@@ -497,7 +499,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.248503" sideWeight="0.67632025" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32692307" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32692307" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -577,6 +579,7 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#doInBackground#0;class#RequestTask#0;class#MainNews#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -593,6 +596,7 @@
         <state line="75" column="102" selection-start="2288" selection-end="2288" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#doInBackground#0;class#RequestTask#0;class#MainNews#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -609,6 +613,7 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#doInBackground#0;class#RequestTask#0;class#MainNews#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -637,11 +642,19 @@
         <state />
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/android/sdk/platforms/android-17/android.jar!/android/R.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="552" column="32" selection-start="39784" selection-end="39784" vertical-scroll-proportion="0.33163264">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PrettyHacker/src/main/java/com/dansd/PrettyHacker/MainNews.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="24" selection-start="2050" selection-end="2050" vertical-scroll-proportion="0.7653061">
+        <state line="75" column="64" selection-start="2146" selection-end="2146" vertical-scroll-proportion="0.57908165">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#doInBackground#0;class#RequestTask#0;class#MainNews#0" expanded="false" />
           </folding>
         </state>
       </provider>

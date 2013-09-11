@@ -1,10 +1,12 @@
 package com.dansd.PrettyHacker;
 
+import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 
 import android.widget.ListView;
@@ -38,7 +40,6 @@ public class MainNews extends Activity {
     }
 
     class RequestTask extends AsyncTask<String, Document, Document> {
-
         @Override
         protected Document doInBackground(String... uri) {
             try {
@@ -51,7 +52,6 @@ public class MainNews extends Activity {
             return null;
 
         }
-
         @Override
         protected void onPostExecute(Document result) {
             super.onPostExecute(result);
@@ -62,6 +62,18 @@ public class MainNews extends Activity {
             else{
                 dealWithNullDocument();
             }
+        }
+    }
+
+    class NewsAdapter extends ArrayAdapter<String>{
+
+        public NewsAdapter(Context context, int textViewResourceId, List<String> objects) {
+            super(context, textViewResourceId, objects);
+        }
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+            return super.getView(position, convertView, parent);
         }
     }
 
@@ -92,6 +104,7 @@ public class MainNews extends Activity {
             catch(Exception e){
                 thisArticle.link = "";
             }
+            articleList.add(thisArticle);
 
         }
     }
