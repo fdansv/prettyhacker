@@ -17,6 +17,7 @@ import org.jsoup.select.Elements;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class MainNews extends Activity {
@@ -65,23 +66,14 @@ public class MainNews extends Activity {
         }
     }
 
-    class NewsAdapter extends ArrayAdapter<String>{
 
-        public NewsAdapter(Context context, int textViewResourceId, List<String> objects) {
-            super(context, textViewResourceId, objects);
-        }
-
-        @Override
-        public View getView(int position, View convertView, ViewGroup parent) {
-            return super.getView(position, convertView, parent);
-        }
-    }
 
     private void generateViews() {
         String[] items={"this", "is", "a", "really", "silly", "list"};
-        ArrayAdapter theAdapter = new ArrayAdapter<String>(this,
+        List list = Arrays.asList(items);
+        NewsAdapter theAdapter = new NewsAdapter(this,
                 android.R.layout.simple_list_item_1,
-                items);
+                list);
         ListView newsList = (ListView) findViewById(R.id.newsList);
         newsList.setAdapter(theAdapter);
     }
@@ -104,6 +96,12 @@ public class MainNews extends Activity {
             catch(Exception e){
                 thisArticle.link = "";
             }
+            try{
+                thisArticle.user = articles.get(i+1).select("td").get(1).select("a").get(0).text();
+            }
+            catch(Exception e){
+                thisArticle.user = "";
+            }
             articleList.add(thisArticle);
 
         }
@@ -113,6 +111,21 @@ public class MainNews extends Activity {
         public String title;
         public String link;
         public String commentsLink;
+        public String user;
+    }
+
+    class NewsAdapter extends ArrayAdapter<String>{
+
+        public NewsAdapter(Context context, int textViewResourceId, List<String> objects) {
+            super(context, textViewResourceId, objects);
+        }
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+            System.out.println(convertView);
+            convertView.setBackground(getResources().getDrawable(R.drawable.hk));
+            return super.getView(position, convertView, parent);
+        }
     }
 
 }
