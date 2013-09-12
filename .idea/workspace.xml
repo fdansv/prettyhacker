@@ -35,11 +35,23 @@
     <list default="true" id="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" name="Default" comment="" />
     <ignored path="PrettyHacker.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/MainNews.java" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378917925605" ignored="false" />
+    <file path="/MainNews.java" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378997900678" ignored="false" />
     <file path="/activity_main.xml" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378906455867" ignored="false" />
     <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy405169587347253578tmp/AndroidManifest.xml" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378906536236" ignored="false" />
     <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy1836671037715651676tmp/AndroidManifest.xml" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378917679973" ignored="false" />
     <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy5348186110816514336tmp/AndroidManifest.xml" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378917774488" ignored="false" />
+    <file path="/Dummy.txt" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378993913816" ignored="false" />
+    <file path="/newsRow.xml" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378997127663" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy2830114113202175578tmp/AndroidManifest.xml" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378995422600" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy2223578209535376715tmp/AndroidManifest.xml" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378996477207" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy1501984112052019082tmp/AndroidManifest.xml" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378996983604" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy6967430106616274123tmp/AndroidManifest.xml" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378997144405" ignored="false" />
+    <file path="$PROJECT_DIR$/PrettyHacker/src/main/res/values/colors.xml" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378997453931" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy3281751113866199667tmp/AndroidManifest.xml" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378997481862" ignored="false" />
+    <file path="$PROJECT_DIR$/PrettyHacker/src/main/gen/com/dansd/PrettyHacker/R.java" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378997650602" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy7718841300317442193tmp/AndroidManifest.xml" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378997966254" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy4659698248918322397tmp/AndroidManifest.xml" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378998026023" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy4507664371157082296tmp/AndroidManifest.xml" changelist="6bd6ec1b-4740-4da8-8b59-39c171f21ff9" time="1378998510244" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +118,7 @@
       <file leaf-file-name="MainNews.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PrettyHacker/src/main/java/com/dansd/PrettyHacker/MainNews.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="0" selection-start="3819" selection-end="3819" vertical-scroll-proportion="0.5443038">
+            <state line="134" column="82" selection-start="4285" selection-end="4285" vertical-scroll-proportion="1.0145228">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#doInBackground#0;class#RequestTask#0;class#MainNews#0" expanded="false" />
@@ -127,10 +139,22 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="newsrow.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PrettyHacker/src/main/res/layout/newsrow.xml">
+          <provider editor-type-id="text-editor">
+            <state line="10" column="100" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PrettyHacker/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="6" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
+            <state line="15" column="64" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -177,16 +201,18 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/PrettyHacker/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/PrettyHacker/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/PrettyHacker/src/main/res/layout/newsRow.xml" />
+        <option value="$PROJECT_DIR$/PrettyHacker/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/PrettyHacker/src/main/res/layout/newsrow.xml" />
         <option value="$PROJECT_DIR$/PrettyHacker/src/main/java/com/dansd/PrettyHacker/MainNews.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1435" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -261,43 +287,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="values-sw720dp-land" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prettyhacker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prettyhacker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-xhdpi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,6 +323,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prettyhacker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -346,7 +350,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
+    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
@@ -355,6 +359,7 @@
       <recent name="$PROJECT_DIR$/PrettyHacker/src/main/libs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PrettyHacker/src/main/assets" />
       <recent name="$PROJECT_DIR$/PrettyHacker/src/main/res/drawable-xhdpi" />
     </key>
   </component>
@@ -501,28 +506,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1382" height="744" extended-state="0" />
+    <frame x="0" y="22" width="1435" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901368" sideWeight="0.673712" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901368" sideWeight="0.673712" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901368" sideWeight="0.7344782" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23902088" sideWeight="0.38044915" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3221154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32628798" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2655218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24982001" sideWeight="0.673712" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.248503" sideWeight="0.67788464" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23902088" sideWeight="0.673712" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32628798" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -648,9 +653,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/android/sdk/platforms/android-17/android.jar!/android/R.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="552" column="32" selection-start="39784" selection-end="39784" vertical-scroll-proportion="0.33163264">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PrettyHacker/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
+        <state line="15" column="64" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -665,16 +677,19 @@
         <state />
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/android/sdk/platforms/android-17/android.jar!/android/R.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="552" column="32" selection-start="39784" selection-end="39784" vertical-scroll-proportion="0.33163264">
+    <entry file="file://$PROJECT_DIR$/PrettyHacker/src/main/res/layout/newsrow.xml">
+      <provider editor-type-id="text-editor">
+        <state line="10" column="100" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PrettyHacker/src/main/java/com/dansd/PrettyHacker/MainNews.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="0" selection-start="3819" selection-end="3819" vertical-scroll-proportion="0.5443038">
+        <state line="134" column="82" selection-start="4285" selection-end="4285" vertical-scroll-proportion="1.0145228">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#doInBackground#0;class#RequestTask#0;class#MainNews#0" expanded="false" />

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="100dp">
+    <TextView android:id="@+id/newsTitle"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:gravity="bottom"
+            android:layout_alignParentRight="true" android:textColor="@color/white" android:shadowColor="@color/black"
+            android:singleLine="true" android:textSize="30dp" android:textIsSelectable="false"></TextView>
+</RelativeLayout>

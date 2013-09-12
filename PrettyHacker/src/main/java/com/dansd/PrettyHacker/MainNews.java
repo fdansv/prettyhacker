@@ -1,18 +1,20 @@
 package com.dansd.PrettyHacker;
 
 import android.content.Context;
+import android.graphics.Typeface;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.app.Activity;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 
 import android.widget.ListView;
+import android.widget.TextView;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
@@ -69,11 +71,9 @@ public class MainNews extends Activity {
 
 
     private void generateViews() {
-        String[] items={"this", "is", "a", "really", "silly", "list"};
-        List list = Arrays.asList(items);
         NewsAdapter theAdapter = new NewsAdapter(this,
-                android.R.layout.simple_list_item_1,
-                list);
+                R.layout.newsrow,
+                this.articleList);
         ListView newsList = (ListView) findViewById(R.id.newsList);
         newsList.setAdapter(theAdapter);
     }
@@ -114,17 +114,30 @@ public class MainNews extends Activity {
         public String user;
     }
 
-    class NewsAdapter extends ArrayAdapter<String>{
+    class NewsAdapter extends ArrayAdapter<Article>{
 
-        public NewsAdapter(Context context, int textViewResourceId, List<String> objects) {
-            super(context, textViewResourceId, objects);
+        private Context context;
+        private int resource;
+        private List<Article> theArticles;
+
+        public NewsAdapter(Context context, int textViewResourceId, List<Article> articles) {
+            super(context, textViewResourceId, articles);
+            this.context = context;
+            this.resource = textViewResourceId;
+            this.theArticles = articles;
         }
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
-            System.out.println(convertView);
-            convertView.setBackground(getResources().getDrawable(R.drawable.hk));
-            return super.getView(position, convertView, parent);
+            Article theArticle = theArticles.get(position);
+            LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            View rowView = inflater.inflate(resource, parent, false);
+            Typeface rt = Typeface.createFromAsset(context.getAssets(),"Roboto-Regular.ttf");
+            TextView textView = (TextView) rowView. findViewById(R.id.newsTitle);
+            textView.setTypeface(rt);
+            textView.setText(theArticle.title);
+            rowView.setBackground(getResources().getDrawable(R.drawable.hk));
+            return rowView;
         }
     }
 
