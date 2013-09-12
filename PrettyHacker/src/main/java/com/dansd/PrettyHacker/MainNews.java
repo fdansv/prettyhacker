@@ -9,6 +9,9 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 
 import android.widget.ListView;
@@ -26,6 +29,7 @@ public class MainNews extends Activity {
 
     private Document newsDoc;
     List articleList = new ArrayList<Article>();
+    private boolean inWebView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,6 +79,20 @@ public class MainNews extends Activity {
                 R.layout.newsrow,
                 this.articleList);
         ListView newsList = (ListView) findViewById(R.id.newsList);
+        newsList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, final View view,
+                                    int position, long id) {
+                WebView webView = new WebView(MainNews.this);
+                webView.setWebViewClient(new WebViewClient());
+                System.out.println(webView);
+                MainNews.this.setContentView(webView);
+                Article thisArticle = (Article) view.getTag();
+                webView.loadUrl(thisArticle.link);
+                inWebView = true;
+
+            }
+        });
         newsList.setAdapter(theAdapter);
     }
 
@@ -136,8 +154,17 @@ public class MainNews extends Activity {
             TextView textView = (TextView) rowView. findViewById(R.id.newsTitle);
             textView.setTypeface(rt);
             textView.setText(theArticle.title);
-            rowView.setBackground(getResources().getDrawable(R.drawable.hk));
+            rowView.setBackground(getResources().getDrawable(R.drawable.arm));
+            rowView.setTag(theArticle);
             return rowView;
+        }
+    }
+    @Override
+    public void onBackPressed() {
+        if(inWebView){
+            setContentView(R.layout.activity_main);
+            generateViews();
+            inWebView = false;
         }
     }
 
