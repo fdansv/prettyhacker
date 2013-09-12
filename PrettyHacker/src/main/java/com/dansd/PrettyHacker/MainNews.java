@@ -166,6 +166,9 @@ public class MainNews extends Activity {
             generateViews();
             inWebView = false;
         }
+        else{
+            super.onBackPressed();
+        }
     }
 
 }
