@@ -1,8 +1,10 @@
 package com.dansd.PrettyHacker;
 
+import android.annotation.TargetApi;
 import android.content.Context;
 import android.graphics.Typeface;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -22,7 +24,6 @@ import org.jsoup.select.Elements;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class MainNews extends Activity {
@@ -130,6 +131,25 @@ public class MainNews extends Activity {
         public String link;
         public String commentsLink;
         public String user;
+
+        public void getImages(){
+            new ImageGetter().execute(this);
+        }
+
+        class ImageGetter extends AsyncTask<Article, Void, Integer> {
+            @Override
+            protected Integer doInBackground(Article... article) {
+                try {
+                    Document page =Jsoup.connect(Article.this.link).get();
+                    Elements imgs = page.getElementsByTag("img");
+                    System.out.println(imgs.size());
+
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                return 0;
+            }
+        }
     }
 
     class NewsAdapter extends ArrayAdapter<Article>{
@@ -145,9 +165,11 @@ public class MainNews extends Activity {
             this.theArticles = articles;
         }
 
+        @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
             Article theArticle = theArticles.get(position);
+            theArticle.getImages();
             LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View rowView = inflater.inflate(resource, parent, false);
             Typeface rt = Typeface.createFromAsset(context.getAssets(),"Roboto-Regular.ttf");
