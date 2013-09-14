@@ -16,6 +16,7 @@ import android.webkit.WebViewClient;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import org.jsoup.Jsoup;
@@ -172,11 +173,12 @@ public class MainNews extends Activity {
             theArticle.getImages();
             LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View rowView = inflater.inflate(resource, parent, false);
+            ImageView imageView = (ImageView) rowView.findViewById(R.id.articleImage);
+            imageView.setImageResource(R.drawable.hk);
             Typeface rt = Typeface.createFromAsset(context.getAssets(),"Roboto-Regular.ttf");
             TextView textView = (TextView) rowView. findViewById(R.id.newsTitle);
             textView.setTypeface(rt);
             textView.setText(theArticle.title);
-            rowView.setBackground(getResources().getDrawable(R.drawable.arm));
             rowView.setTag(theArticle);
             return rowView;
         }
