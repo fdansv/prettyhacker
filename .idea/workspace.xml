@@ -96,10 +96,12 @@
       <file leaf-file-name="MainNews.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PrettyHacker/src/main/java/com/dansd/PrettyHacker/MainNews.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="176" column="52" selection-start="5889" selection-end="5889" vertical-scroll-proportion="3.730303" vertical-offset="1523" max-vertical-offset="3230">
+            <state line="186" column="37" selection-start="6355" selection-end="6355" vertical-scroll-proportion="0.27878788" vertical-offset="2832" max-vertical-offset="3519">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#doInBackground#0;class#RequestTask#0;class#MainNews#0" expanded="false" />
+                <element signature="e#6571#6769#0" expanded="true" />
+                <element signature="e#6754#6755#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -518,7 +520,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901368" sideWeight="0.673712" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -531,7 +533,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3253833" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3935264" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3935264" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24982001" sideWeight="0.673712" order="1" side_tool="false" content_ui="tabs" />
@@ -619,6 +621,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#doInBackground#0;class#RequestTask#0;class#MainNews#0" expanded="false" />
+            <element signature="e#6571#6769#0" expanded="true" />
+            <element signature="e#6754#6755#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -666,6 +670,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#doInBackground#0;class#RequestTask#0;class#MainNews#0" expanded="false" />
+            <element signature="e#6571#6769#0" expanded="true" />
+            <element signature="e#6754#6755#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -683,6 +689,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#doInBackground#0;class#RequestTask#0;class#MainNews#0" expanded="false" />
+            <element signature="e#6571#6769#0" expanded="true" />
+            <element signature="e#6754#6755#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -700,6 +708,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#doInBackground#0;class#RequestTask#0;class#MainNews#0" expanded="false" />
+            <element signature="e#6571#6769#0" expanded="true" />
+            <element signature="e#6754#6755#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -750,10 +760,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PrettyHacker/src/main/java/com/dansd/PrettyHacker/MainNews.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="176" column="52" selection-start="5889" selection-end="5889" vertical-scroll-proportion="3.730303" vertical-offset="1523" max-vertical-offset="3230">
+        <state line="186" column="37" selection-start="6355" selection-end="6355" vertical-scroll-proportion="0.27878788" vertical-offset="2832" max-vertical-offset="3519">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#doInBackground#0;class#RequestTask#0;class#MainNews#0" expanded="false" />
+            <element signature="e#6571#6769#0" expanded="true" />
+            <element signature="e#6754#6755#0" expanded="true" />
           </folding>
         </state>
       </provider>

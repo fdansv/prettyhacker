@@ -7,8 +7,10 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.app.Activity;
+import android.view.GestureDetector;
 import android.view.LayoutInflater;
 import android.view.Menu;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
@@ -166,7 +168,6 @@ public class MainNews extends Activity {
             this.theArticles = articles;
         }
 
-        @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
             Article theArticle = theArticles.get(position);
@@ -180,6 +181,22 @@ public class MainNews extends Activity {
             textView.setTypeface(rt);
             textView.setText(theArticle.title);
             rowView.setTag(theArticle);
+
+            class mListener extends GestureDetector.SimpleOnGestureListener {
+                @Override
+                public boolean onDown(MotionEvent e) {
+                    return true;
+                }
+            }
+
+            GestureDetector mDetector = new GestureDetector(MainNews.this, new mListener());
+            rowView.setOnTouchListener(new View.OnTouchListener() {
+                @Override
+                public boolean onTouch(View view, MotionEvent motionEvent) {
+
+                    return false;
+                }
+            });
             return rowView;
         }
     }
